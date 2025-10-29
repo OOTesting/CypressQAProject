@@ -1,7 +1,7 @@
 # Cypress Test Automation Framework
 
 
-Cypress test automation framework built with JavaScript (JS) that follows the Page Object Model (POM) design pattern to implement the UI tests for OpenCart E-commerce store.
+Cypress test automation framework built with JavaScript (JS) that follows the Page Object Model (POM) design pattern to implement the UI tests for Naveen automation labs OpenCart E-commerce store.
 
 > If you are a beginner to Cypress, refer to my other repo to refresh your Cypress knowledge which will serve as a starting-point to Cypress testing:
 [Cypress-E2E-Web-and-API-Testing](https://github.com/itkhanz/Cypress-E2E-Web-and-API-Testing)
@@ -20,9 +20,6 @@ https://naveenautomationlabs.com/opencart/index.php
 * Ability to filter and run tests with specific tags i.e. regression, smoke
 * Pass browser and mode as environment variable
 * Configure routes (URL endpoints) in the constant config file
-* Usage of OOP Inheritance to extend all the pages from BasePage
-  * Allows to load header and footer components from BasePage constructor
-  * Call the `cy.visit()` from BasePage with specified path
 * Test Retries for failing tests
 * Custom commands for login and validation in `cypress/support/commands.js`
 * Intellisense for custom commands in `cypress/support/index.d.ts`
@@ -54,7 +51,7 @@ https://naveenautomationlabs.com/opencart/index.php
 * Choose browser of your choice, and scaffold examples which will create boilerplate specs within e2e folder.
 * Remove the default boilerplate specs from `cypress/e2e` folder
 * Add `.gitignore` to exclude files and folders from GIT
-* Add `README.md` to document
+* Add `README.md` to document the Cypress solution
 * Start with writing tests under `cypress/e2e` directory.
 
 #### Integrating ESLint
